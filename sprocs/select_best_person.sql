@@ -6,6 +6,7 @@ create procedure select_best_person ()
 sql security invoker
 begin
     select * from people order by rand() limit 1;
-END;;
+END 
+;;
 
 DELIMITER ;
