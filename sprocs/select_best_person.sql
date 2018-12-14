@@ -8,4 +8,4 @@ begin
     select * from people order by rand() limit 1;
 END;;
 
-DELIMITER;
+DELIMITER ;
